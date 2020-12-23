@@ -1,13 +1,23 @@
 
 const soundes = {
+  pop : new Audio("https://static.miraheze.org/libertygamewiki/4/40/Uncymaze_pop.ogg"),
+  disappear : new Audio("https://static.miraheze.org/libertygamewiki/b/b6/Uncymaze_disappear.ogg"),
+  bgm : new Audio("https://static.miraheze.org/libertygamewiki/d/d0/Uncymaze_bgm.ogg"),
+  cursor: new Audio("https://static.miraheze.org/libertygamewiki/e/e3/Uncymaze_cursor.ogg"),
+  menu : new Audio("https://static.miraheze.org/libertygamewiki/7/7c/Uncymaze_menu.ogg"),
+  cancel : new Audio("https://static.miraheze.org/libertygamewiki/7/76/Uncymaze_cancel.ogg"),
+  action : new Audio("https://static.miraheze.org/libertygamewiki/0/07/Uncymaze_action.ogg")
+}
+/*
+const soundes = {
   pop : new Audio("https://soundeffect-lab.info/sound/button/mp3/decision44.mp3"),
-  disappear : new Audio("https://freesound.org/data/previews/512/512217_10756146-lq.mp3"),
+  disappear : new Audio("https://soundeffect-lab.info/sound/button/mp3/decision31.mp3"),
   bgm : new Audio("https://peritune.com/music/PerituneMaterial_Prairie4.mp3"),
   cursor: new Audio("https://soundeffect-lab.info/sound/button/mp3/cursor7.mp3"),
   menu : new Audio("https://soundeffect-lab.info/sound/button/mp3/decision40.mp3"),
   cancel : new Audio("https://soundeffect-lab.info/sound/button/mp3/cancel4.mp3"),
   action : new Audio("https://soundeffect-lab.info/sound/button/mp3/decision22.mp3")
-}
+}*/
 soundes.bgm.volume = 0.8;
 const $$ = function(callback){
   return new Promise((res,rej) => {
